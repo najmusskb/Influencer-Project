@@ -34,12 +34,211 @@ li a {
     font-size: 18px;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
-    margin-top: 13px;
-    font-style: bold;
 
 }
 
-li a:hover:not(.active) {
-    background-color: #111;
+
+
+
+/* part-2-flexbox */
+
+.flex {
+    display: flex;
+    align-content: space-between;
+    width: 100%;
+    margin: 200px;
+    padding: 10px;
+    align-items: center;
+}
+
+.camera {
+    color: yellowgreen;
+    font-size: 50px;
+}
+
+.paragraph {
+    width: 500px;
+    text-align: justify;
+}
+
+.btn {
+
+    background-color: rgb(5, 142, 177);
+    padding: 20px;
+
+    border-radius: 20px;
+
+    color: white;
+
+    font-size: 20px;
+}
+
+.btn:hover {
+
+    background-color: rgb(101, 27, 199);
+}
+
+
+
+
+
+/* grid */
+
+.box {
+
+    padding: 20px;
+    font-size: 150%;
+    margin-left: 250px;
+}
+
+.wrapper {
+    width: 600px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(7, 100px);
+}
+
+
+
+
+
+
+
+.wrapper-2 {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 100px 100px 100px;
+    background-color: #fff;
+    color: #444;
+}
+
+
+
+
+
+
+
+/* ____________________________CARD________________________ */
+
+
+.third-content {
+
+    text-align: center;
+    color: rgb(202, 170, 170);
+    font-style: blod;
+    font-size: 18px;
+
+    margin-top: 20px;
+    color: rgb(12, 219, 22);
+
+}
+
+
+
+.section-part-03 {
+    display: flex;
+    gap: 20px;
+
+    text-align: justify;
+
+}
+
+
+.div-one {
+
+    padding: 40px;
+    border-radius: 10px;
+    background: rgb(233, 212, 212);
+    box-shadow: 0 8px 8px -4px rgb(27, 1, 32);
+
+
+
+
+}
+
+.div-two {
+
+    padding: 40px;
+    border-radius: 10px;
+    background: rgb(157, 118, 209);
+    box-shadow: 0 8px 8px -4px rgb(62, 4, 117);
+}
+
+.div-three {
+
+    padding: 40px;
+    border-radius: 10px;
+    background: rgb(127, 240, 127);
+    box-shadow: 0 8px 8px -4px rgb(23, 13, 150);
+}
+
+
+
+
+/* footer */
+
+
+
+.footer {
+
+    background-color: black;
+}
+
+.footer-items {
+
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
+#be-humble {
+    font-family: 'Kaushan Script', cursive;
+    font-style: unset;
+    color: rgb(127, 240, 127);
+
+}
+
+#footer-end {
+    font-family: 'Kaushan Script', cursive;
+
+}
+
+
+
+
+.title-text {
+
+
+
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.title-text p {
+
+    margin: auto;
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+    position: relative;
+    z-index: -1;
+    display: inline-block;
+    margin-right: 50px;
+
+
+}
+
+
+.title-text p::after {
+    content: '';
+    width: 70px;
+    height: 50px;
+    background: linear-gradient(#21f356, rgb(97, 10, 119));
+    position: absolute;
+    top: -20;
+    left: 0;
+    z-index: -1;
+    transition: rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
 }
