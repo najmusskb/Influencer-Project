@@ -1,0 +1,45 @@
+/* part-01 */
+
+
+#Influencer {
+
+    float: left;
+    margin-right: 600px;
+}
+
+.part-01-Navigation {
+
+    margin-right: 100px;
+}
+
+
+
+ul {
+    list-style-type: none;
+    float: right;
+    background-color: rgb(197, 154, 154);
+    padding: 10px;
+
+
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    display: block;
+    color: rgb(124, 24, 190);
+    font-size: 18px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 13px;
+    font-style: bold;
+
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
